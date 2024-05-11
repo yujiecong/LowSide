@@ -1,0 +1,58 @@
+QTreeView{
+    background:rgb(36, 36, 36);
+}
+
+
+QTableView::item,
+QTreeView::item,
+QListView::item {
+    height: 24px;
+  }
+
+QTableView::item::selected,
+QTreeView::item::selected,
+QListView::item::selected {
+  selection-color: white;
+  selection-background-color: #0070e0; }
+
+QTableView::item::selected:focus,
+QTreeView::item::selected:focus,
+QListView::item::selected:focus {
+  background-color: #0070e0; }
+
+QTableView::indicator:unchecked,
+QTreeView::indicator:unchecked,
+QListView::indicator:unchecked {
+
+  image: url(:/Assets/Unreal/uncheck.svg);
+  }
+
+QTableView::indicator:checked,
+QTreeView::indicator:checked,
+QListView::indicator:checked {
+  image: url(:/Assets/Unreal/check.svg); }
+
+QHeaderView::section {
+  background-color: #2f2f2f;
+  padding-left: 5px;
+  color: #c0c0c0;
+  border: none; }
+  QHeaderView::section::horizontal {
+    border-left: 1px solid #151515; }
+  QHeaderView::section::vertical {
+    border-top: 1px solid #151515; }
+  QHeaderView::section:hover {
+    background-color: #353535; }
+
+QTreeView::branch:closed:has-children {
+  image: url(:/Assets/Unreal/triangle-right.svg); }
+  QTreeView::branch:closed:has-children:hover {
+    image: url(:/Assets/Unreal/triangle-right-white.svg); }
+
+QTreeView::branch:open:has-children {
+  image: url(:/Assets/Unreal/triangle-down.svg); }
+  QTreeView::branch:open:has-children:hover {
+    image: url(:/Assets/Unreal/triangle-down-white.svg); }
+
+QTableWidget QTableCornerButton::section {
+  background-color: #2f2f2f; }

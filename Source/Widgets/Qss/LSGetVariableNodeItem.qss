@@ -1,0 +1,7 @@
+QWidget#main_widget{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.5,
+stop:0 rgba(91,144,178, 255),
+stop:0.503311 rgba(35,59,74, 255),
+stop:1 rgba(19, 19, 19, 155));
+
+}

@@ -1,0 +1,18 @@
+QGraphicsView{
+    background:rgb(38,38,38);
+
+}
+QMenu {
+  padding-top: 3px;
+  background-color: rgb(56, 56, 56);
+}
+
+QMenu::item {
+font: 75 7pt "微软雅黑";
+padding: 5px 0px 5px 15px;
+/*padding: 5px 10px 5px 10px;
+min-width: 180px; */
+}
+QMenu::item:selected {
+  background-color: #0664c3;
+}

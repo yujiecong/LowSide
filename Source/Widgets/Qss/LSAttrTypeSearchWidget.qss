@@ -1,0 +1,136 @@
+QWidget{
+font: 75 8pt "微软雅黑";
+}
+
+QWidget#LSAttrTypeSearchWidget{
+    background-color: rgb(56,56,56);
+}
+
+QWidget#title_widget > *{
+    font-size: 11px;
+}
+
+QLabel#title_label{
+    color: rgb(192,192,192);
+}
+
+QCheckBox#checkbox{
+    color: white;
+}
+
+
+QLineEdit#search_line{
+    border:none;
+    background:transparent;
+    color:rgb(97,97,97);
+}
+
+QFrame#split_line{
+    border:2px solid rgb(83,83,83);
+    background:rgb(83,83,83);
+}
+
+QWidget#body_widget {
+    background:rgb(26,26,26);
+}
+
+QWidget#body_widget > *{
+    background:rgb(26,26,26);
+}
+
+QTreeWidget#tree_widget{
+    border:none;
+}
+
+QLabel#prompt_label{
+    color:rgb(182,182,182);
+}
+
+
+
+QTableView,
+QTreeView,
+QListView {
+  background-color: #151515;
+  outline:0px;
+  }
+
+QTableView::item,
+QTreeView::item,
+QListView::item {
+  height:15px;
+
+  color: #c0c0c0;
+
+  }
+
+QTableView::item::selected,
+QTreeView::item::selected,
+QListView::item::selected {
+  selection-color: white;
+  selection-background-color: #0070e0; }
+
+QTableView::item::selected:focus,
+QTreeView::item::selected:focus,
+QListView::item::selected:focus {
+  background-color: #0070e0; }
+
+QTableView::indicator:unchecked,
+QTreeView::indicator:unchecked,
+QListView::indicator:unchecked {
+
+   }
+
+QTableView::indicator:checked,
+QTreeView::indicator:checked,
+QListView::indicator:checked {
+  image: url(:/Assets/Unreal/check.svg); }
+
+QHeaderView::section {
+  background-color: #2f2f2f;
+  padding-left: 5px;
+  color: #c0c0c0;
+  border: none; }
+  QHeaderView::section::horizontal {
+    border-left: 1px solid #151515; }
+  QHeaderView::section::vertical {
+    border-top: 1px solid #151515; }
+  QHeaderView::section:hover {
+    background-color: #353535; }
+
+QTreeView::branch:closed:has-children {
+  image: url(:/Assets/Unreal/triangle-right.svg);
+
+  }
+
+QTreeView::branch:closed:has-children:hover {
+image: url(:/Assets/Unreal/triangle-right-white.svg); }
+
+QTreeView::branch:open:has-children {
+  image: url(:/Assets/Unreal/triangle-down.svg); }
+
+QTreeView::branch:open:has-children:hover {
+image: url(:/Assets/Unreal/triangle-down-white.svg); }
+
+QTableWidget QTableCornerButton::section {
+  background-color: #2f2f2f; }
+
+
+QScrollBar:vertical {
+    background: rgb(26, 26, 26); /* 设置垂直滚动条的背景色 */
+    width: 5px; /* 设置垂直滚动条的宽度 */
+}
+
+QScrollBar::handle:vertical {
+    background: rgb(87, 87, 87); /* 设置滚动条手柄的背景色 */
+    min-height: 80px; /* 设置滚动条手柄的最小高度 */
+    border-radius:5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none; /* 设置滚动条的箭头样式 */
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none; /* 设置滚动条的页样式 */
+}

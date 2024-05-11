@@ -1,0 +1,16 @@
+QMenu {
+  background-color: rgb(56, 56, 56);
+}
+
+QMenu::item {
+font: 75 7pt "微软雅黑";
+min-width: 80px;
+  color: white;
+
+}
+QMenu::item:selected {
+  background-color: #0664c3;
+}
+QMenu::item:hover {
+  background-color: rgb(0, 112, 224);
+}

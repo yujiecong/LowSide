@@ -1,0 +1,275 @@
+{
+  "tab_data": {
+    "tab_widget_data": {
+      "property_sdata": {
+        "variable_data": [
+          {
+            "variable_name": "sum",
+            "variable_attr_type": "float",
+            "variable_attr_name": "float",
+            "variable_value": 0.0
+          }
+        ]
+      },
+      "view_sdata": {
+        "items_data": [
+          {
+            "identifier": "/Event/\u5f00\u59cb\u8fd0\u884c",
+            "instance_type": "LSEventNodeItem_ProgramStart",
+            "item_pos": [
+              95,
+              134
+            ],
+            "node_type": "Event",
+            "pin_connect_info": [
+              {
+                "node_uuid": "f2bc415a-7962-479b-b542-a197aeb2e269",
+                "to_node_uuid": "aafe5f7d-8a41-4d86-8586-c36c4d5c36f0",
+                "pin_uuid": "03c3a68d-cffc-4b38-93cf-293512c02024",
+                "to_pin_uuid": "2b203e39-f8b3-46e5-aec0-3adcf2cfba68"
+              }
+            ],
+            "pins_serialized": [
+              {
+                "pin_name": "LSExecPin",
+                "title": "",
+                "uuid_": "03c3a68d-cffc-4b38-93cf-293512c02024"
+              }
+            ],
+            "source": "Builtin",
+            "title": "\u5f00\u59cb\u8fd0\u884c",
+            "type_name": "LSEventNodeItem_ProgramStart",
+            "uuid_": "f2bc415a-7962-479b-b542-a197aeb2e269"
+          },
+          {
+            "args_info": {
+              "__prompt": "str"
+            },
+            "func_type": "NormalMethod",
+            "identifier": "/Ast/builtins/input",
+            "instance_type": "LSExecNodeItem",
+            "item_pos": [
+              259,
+              109
+            ],
+            "node_type": "Stubs",
+            "pin_connect_info": [
+              {
+                "node_uuid": "aafe5f7d-8a41-4d86-8586-c36c4d5c36f0",
+                "to_node_uuid": "e4fa0eff-6707-46a8-a893-0b888c990616",
+                "pin_uuid": "5e7f9df1-2a5e-4684-961b-41bc7348af82",
+                "to_pin_uuid": "eedf696a-aef1-4ede-93a8-96f30b96732c"
+              }
+            ],
+            "pins_serialized": [
+              {
+                "pin_name": "LSExecPin",
+                "title": "",
+                "uuid_": "2b203e39-f8b3-46e5-aec0-3adcf2cfba68"
+              },
+              {
+                "pin_name": "LSExecPin",
+                "title": "",
+                "uuid_": "5e7f9df1-2a5e-4684-961b-41bc7348af82"
+              },
+              {
+                "pin_name": "LSLineEditDataPin",
+                "text": "\u8f93\u5165\u7b2c\u4e00\u4e2a\u6570\u5b57\uff1a",
+                "title": "__prompt",
+                "uuid_": "79df5275-8a2d-4d52-8a0a-c1b4ce7e4d71"
+              },
+              {
+                "pin_name": "LSDataPin",
+                "title": "return_value",
+                "uuid_": "bcd27577-d7ce-4fc5-aa4b-f5dd5118db06"
+              }
+            ],
+            "return_info": {
+              "return_names": [
+                "return_value"
+              ],
+              "attr_type": "str"
+            },
+            "source": "Ast",
+            "title": "input",
+            "type_name": "LSExecNodeItem",
+            "uuid_": "aafe5f7d-8a41-4d86-8586-c36c4d5c36f0"
+          },
+          {
+            "args_info": {
+              "__prompt": "str"
+            },
+            "func_type": "NormalMethod",
+            "identifier": "/Ast/builtins/input",
+            "instance_type": "LSExecNodeItem",
+            "item_pos": [
+              500,
+              108
+            ],
+            "node_type": "Stubs",
+            "pin_connect_info": [
+              {
+                "node_uuid": "e4fa0eff-6707-46a8-a893-0b888c990616",
+                "to_node_uuid": "f89ec58f-5efa-4d04-ad9c-8ba0dfe82814",
+                "pin_uuid": "c6cf9a09-d51d-473f-96cd-527b51a2ccd9",
+                "to_pin_uuid": "690a5ec4-6c8b-4bdf-9f82-4304e58f8ab1"
+              },
+              {
+                "node_uuid": "e4fa0eff-6707-46a8-a893-0b888c990616",
+                "to_node_uuid": "42e1b067-2039-44e0-a3a4-cc5ff0d4136d",
+                "pin_uuid": "9130bbef-385b-4e37-bb9f-75f1b64e960c",
+                "to_pin_uuid": "93c16239-7ff3-4b1d-88bc-4af2f6e70772"
+              }
+            ],
+            "pins_serialized": [
+              {
+                "pin_name": "LSExecPin",
+                "title": "",
+                "uuid_": "eedf696a-aef1-4ede-93a8-96f30b96732c"
+              },
+              {
+                "pin_name": "LSExecPin",
+                "title": "",
+                "uuid_": "c6cf9a09-d51d-473f-96cd-527b51a2ccd9"
+              },
+              {
+                "pin_name": "LSLineEditDataPin",
+                "text": "\u8f93\u5165\u7b2c\u4e8c\u4e2a\u6570\u5b57\uff1a",
+                "title": "__prompt",
+                "uuid_": "b17284e5-86b9-4ce0-bc31-711637c5b223"
+              },
+              {
+                "pin_name": "LSDataPin",
+                "title": "return_value",
+                "uuid_": "9130bbef-385b-4e37-bb9f-75f1b64e960c"
+              }
+            ],
+            "return_info": {
+              "return_names": [
+                "return_value"
+              ],
+              "attr_type": "str"
+            },
+            "source": "Ast",
+            "title": "input",
+            "type_name": "LSExecNodeItem",
+            "uuid_": "e4fa0eff-6707-46a8-a893-0b888c990616"
+          },
+          {
+            "attr_name": "float",
+            "attr_type": "float",
+            "identifier": "/Variable/sum/Set",
+            "instance_type": "LSSetVariableNodeItem",
+            "item_pos": [
+              865,
+              115
+            ],
+            "name": "sum",
+            "node_type": "Variable",
+            "pin_connect_info": [],
+            "pins_serialized": [
+              {
+                "pin_name": "LSExecPin",
+                "title": "",
+                "uuid_": "690a5ec4-6c8b-4bdf-9f82-4304e58f8ab1"
+              },
+              {
+                "pin_name": "LSExecPin",
+                "title": "",
+                "uuid_": "71de1175-3f59-4415-905b-c6c7f600c3a5"
+              },
+              {
+                "pin_name": "LSVariableDataPin",
+                "title": "sum",
+                "uuid_": "ed1c706f-93db-4642-89b8-578076de0607"
+              },
+              {
+                "pin_name": "LSLineEditDataPin",
+                "text": "",
+                "title": "sum",
+                "uuid_": "375aa0e0-cebb-4173-a4d4-28727dbe6330"
+              }
+            ],
+            "source": "Undefined",
+            "title": "Set",
+            "type_name": "LSSetVariableNodeItem",
+            "uuid_": "f89ec58f-5efa-4d04-ad9c-8ba0dfe82814"
+          },
+          {
+            "args_info": {
+              "*args": "object",
+              "**kwargs": "object"
+            },
+            "class_name": "float",
+            "func_name": "__init__",
+            "func_type": "ClassMethod",
+            "identifier": "/Ast/builtins/float.__init__",
+            "instance_type": "LSMagicMethodNodeItem",
+            "item_pos": [
+              685,
+              260
+            ],
+            "node_type": "ClassMagicMethod",
+            "pin_connect_info": [
+              {
+                "node_uuid": "42e1b067-2039-44e0-a3a4-cc5ff0d4136d",
+                "to_node_uuid": "f89ec58f-5efa-4d04-ad9c-8ba0dfe82814",
+                "pin_uuid": "67f83f90-95cf-45cd-bb2b-3be44856fc00",
+                "to_pin_uuid": "375aa0e0-cebb-4173-a4d4-28727dbe6330"
+              }
+            ],
+            "pins_serialized": [
+              {
+                "pin_name": "LSDynamicArgsPin",
+                "sub_pin_info": {
+                  "sub_pin_idx": 1,
+                  "sub_pin_connect_info": []
+                },
+                "sub_pin_serialized": [
+                  {
+                    "pin_name": "LSDynamicArgsSubPin",
+                    "title": "arg0",
+                    "uuid_": "93c16239-7ff3-4b1d-88bc-4af2f6e70772"
+                  }
+                ],
+                "title": "*args",
+                "uuid_": "ae8abc15-db20-4891-929c-6437249f464d"
+              },
+              {
+                "pin_name": "LSDynamicKWArgsPin",
+                "sub_pin_info": {
+                  "sub_pin_idx": 0,
+                  "sub_pin_connect_info": []
+                },
+                "sub_pin_serialized": [],
+                "title": "**kwargs",
+                "uuid_": "161e71f6-3fc9-4aa4-bed0-9868cd5b87eb"
+              },
+              {
+                "pin_name": "LSDataPin",
+                "title": "return_value",
+                "uuid_": "67f83f90-95cf-45cd-bb2b-3be44856fc00"
+              }
+            ],
+            "return_info": {
+              "return_names": [
+                "return_value"
+              ],
+              "attr_type": "float"
+            },
+            "source": "Ast",
+            "title": "float.__init__",
+            "type_name": "LSMagicMethodNodeItem",
+            "uuid_": "42e1b067-2039-44e0-a3a4-cc5ff0d4136d"
+          }
+        ],
+        "view_scene_rect_data": [
+          410.56000000000085,
+          27.800000000000125,
+          598.0,
+          564.0
+        ]
+      }
+    }
+  }
+}

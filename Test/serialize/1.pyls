@@ -1,0 +1,33 @@
+{
+  "items_data": [
+    {
+      "ast_data": {
+        "title": "new_var1",
+        "node_type": "\u83b7\u53d6\u53d8\u91cf",
+        "instance_type": "LSGetVariableNodeItem",
+        "attr_type": "bool"
+      },
+      "attr_type": "object",
+      "identifier": "/\u83b7\u53d6\u53d8\u91cf/new_var1",
+      "item_pos": [
+        -88,
+        -119
+      ],
+      "pin_connect_info": [],
+      "pins_serialized": [
+        {
+          "uuid_": "2e69a928-0df2-4535-836d-5747da3bf38b"
+        }
+      ],
+      "title": "new_var1",
+      "type_name": "LSGetVariableNodeItem",
+      "uuid_": "c572d460-1686-4dcd-8f4a-ab6f4225474c"
+    }
+  ],
+  "view_scene_rect": [
+    -300.0,
+    -200.0,
+    640.0,
+    480.0
+  ]
+}

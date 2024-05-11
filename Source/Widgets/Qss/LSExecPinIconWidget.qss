@@ -1,0 +1,11 @@
+QWidget[State="Hover"]{
+    background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(69,71,69, 255), stop:0.289773 rgba(157,158,157, 255), stop:1 rgba(33,36,33,255));
+}
+
+
+QWidget[State="Normal"]{
+}
+
+QWidget{
+
+}

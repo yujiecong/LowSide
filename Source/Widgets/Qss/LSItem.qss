@@ -1,0 +1,114 @@
+QLabel{
+    color:rgb(255, 255, 255);
+}
+
+QWidget#title_widget{
+   border-radius: 10px;
+
+}
+
+QLabel#title_label{
+    font-size: 10pt;
+    color:rgb(192, 192, 192);
+}
+QWidget#main_widget{
+   border-style: transparent;
+   border-radius: 10px;
+
+}
+
+QWidget#LSItem{
+   border-style: transparent;
+   border-radius: 10px;
+   background-color:transparent;
+}
+
+QWidget{
+   font: 7pt "微软雅黑";
+}
+
+QWidget#LSItem[State="Selected"]{
+    border:2px solid;
+    border-color:rgb(240,174,0);
+
+    /*
+    border-color:rgb(241,175,0)
+         qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(241,175,0, 255), stop:1 rgba(205,104,0, 255))
+         rgb(205,104,0)
+         qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(241,175,0, 255), stop:1 rgba(209,112,0, 255));
+    */
+}
+
+
+QPushButton {
+  background-color: #353535;
+  height: 20px;
+  padding-bottom: 1px;
+  border-radius: 3px;
+  border: 1px solid black; }
+  QPushButton:hover {
+    background-color: #575757; }
+  QPushButton:checked {
+    color: white;
+    background-color: #0664c3; }
+    QPushButton:checked:hover {
+      background-color: #0070e0; }
+
+  QPushButton:disabled {
+    color: #8f8f8f;
+    background-color: #353535;
+    border-style: transparent; }
+  QPushButton:flat {
+    background-color: transparent;
+    color: #c0c0c0;
+    border-style: transparent; }
+    QPushButton:flat:hover {
+      color: white;
+      background-color: #353535; }
+    QPushButton:flat:disabled {
+      color: #575757; }
+
+  QPushButton:pressed {
+    color: white;
+    background-color: rgb(122,122,122);
+ }
+QLineEdit,
+QComboBox,
+QSpinBox,
+QDoubleSpinBox {
+  color: #c0c0c0;
+  background-color: black;
+  padding-left:2px;
+  border-radius: 3px;
+  border: 1px solid #353535; }
+
+QLineEdit:hover,
+QComboBox:hover {
+  border-color: #4f4f4f; }
+
+QLineEdit:focus {
+  border-color: #0664c3; }
+
+
+QCheckBox {
+  color: white;
+  background-color: transparent;
+    height: 15px;
+  width: 15px;
+}
+
+QGroupBox::indicator,
+QCheckBox::indicator {
+  border-radius: 3px;
+  border: 1px solid #353535;
+    height: 15px;
+  width: 15px;
+  }
+
+QGroupBox::indicator:hover,
+QCheckBox::indicator:hover {
+  border-color: #4f4f4f; }
+
+QGroupBox::indicator:checked,
+QCheckBox::indicator:checked {
+  image: url(:/Assets/Unreal/check.svg); }

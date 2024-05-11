@@ -1,0 +1,231 @@
+{
+  "tab_data": {
+    "tab_widget_data": {
+      "property_sdata": {
+        "variable_data": []
+      },
+      "view_sdata": {
+        "items_data": [
+          {
+            "identifier": "/Event/\u5f00\u59cb\u8fd0\u884c",
+            "instance_type": "LSEventNodeItem_ProgramStart",
+            "item_pos": [
+              133,
+              -25
+            ],
+            "node_type": "Event",
+            "pin_connect_info": [
+              {
+                "node_uuid": "5bfb042f-b4db-46bc-8486-6da0a2556b72",
+                "to_node_uuid": "7a49b3aa-15f3-44a6-9874-d1b4aa607f7d",
+                "pin_uuid": "ab5600ed-44af-4e48-b8f4-93c396cd21d9",
+                "to_pin_uuid": "64d124dd-35e4-4d2a-bce9-aa88fa34e8f7"
+              }
+            ],
+            "pins_serialized": [
+              {
+                "attr_type": "null",
+                "class_name": "LSExecPin",
+                "flow": "Out",
+                "title": "",
+                "uuid_": "ab5600ed-44af-4e48-b8f4-93c396cd21d9"
+              }
+            ],
+            "source": "Builtin",
+            "title": "\u5f00\u59cb\u8fd0\u884c",
+            "type_name": "LSEventNodeItem_ProgramStart",
+            "uuid_": "5bfb042f-b4db-46bc-8486-6da0a2556b72",
+            "variable_pins_data": {}
+          },
+          {
+            "args_info": {
+              "__prompt": "str"
+            },
+            "func_type": "NormalMethod",
+            "identifier": "/Ast/builtins/input",
+            "instance_type": "LSExecNodeItem",
+            "item_pos": [
+              258,
+              45
+            ],
+            "node_type": "Stubs",
+            "pin_connect_info": [
+              {
+                "node_uuid": "7a49b3aa-15f3-44a6-9874-d1b4aa607f7d",
+                "to_node_uuid": "f11493b9-5a05-420d-a7ee-f22dad0fa10c",
+                "pin_uuid": "c7d9b92a-db9d-40f8-9fe6-34b930ca6ae6",
+                "to_pin_uuid": "49d6a74b-a0c8-4dff-9bb2-6c0e381fc56c"
+              }
+            ],
+            "pins_serialized": [
+              {
+                "attr_type": "null",
+                "class_name": "LSExecPin",
+                "flow": "In",
+                "title": "",
+                "uuid_": "64d124dd-35e4-4d2a-bce9-aa88fa34e8f7"
+              },
+              {
+                "attr_type": "null",
+                "class_name": "LSExecPin",
+                "flow": "Out",
+                "title": "",
+                "uuid_": "c7d9b92a-db9d-40f8-9fe6-34b930ca6ae6"
+              },
+              {
+                "attr_type": "str",
+                "class_name": "LSLineEditDataPin",
+                "flow": "In",
+                "text": "\u8f93\u5165\u7b2c\u4e00\u4e2a\u6570\u5b57\uff1a",
+                "title": "__prompt",
+                "uuid_": "0bf46f37-905d-4620-b79b-589b74e86d70"
+              },
+              {
+                "attr_type": "str",
+                "class_name": "LSDataPin",
+                "flow": "Out",
+                "title": "num1",
+                "uuid_": "93b0008e-3ad2-482e-8068-6baa1721ae0e"
+              }
+            ],
+            "return_info": {
+              "return_names": [
+                "return_value"
+              ],
+              "attr_type": "str"
+            },
+            "source": "Ast",
+            "title": "input",
+            "type_name": "LSExecNodeItem",
+            "uuid_": "7a49b3aa-15f3-44a6-9874-d1b4aa607f7d",
+            "variable_pins_data": {}
+          },
+          {
+            "args_info": {
+              "__prompt": "str"
+            },
+            "func_type": "NormalMethod",
+            "identifier": "/Ast/builtins/input",
+            "instance_type": "LSExecNodeItem",
+            "item_pos": [
+              262,
+              -116
+            ],
+            "node_type": "Stubs",
+            "pin_connect_info": [],
+            "pins_serialized": [
+              {
+                "attr_type": "null",
+                "class_name": "LSExecPin",
+                "flow": "In",
+                "title": "",
+                "uuid_": "49d6a74b-a0c8-4dff-9bb2-6c0e381fc56c"
+              },
+              {
+                "attr_type": "null",
+                "class_name": "LSExecPin",
+                "flow": "Out",
+                "title": "",
+                "uuid_": "ce56444c-ade7-4772-9920-8d92b5c97811"
+              },
+              {
+                "attr_type": "str",
+                "class_name": "LSLineEditDataPin",
+                "flow": "In",
+                "text": "\u8f93\u5165\u7b2c\u4e8c\u4e2a\u6570\u5b57\uff1a",
+                "title": "__prompt",
+                "uuid_": "0f5f512d-2181-407e-9034-c2ee91ff120f"
+              },
+              {
+                "attr_type": "str",
+                "class_name": "LSDataPin",
+                "flow": "Out",
+                "title": "num2",
+                "uuid_": "674f6df8-b5a0-4ca9-b681-6782c1463627"
+              }
+            ],
+            "return_info": {
+              "return_names": [
+                "return_value"
+              ],
+              "attr_type": "str"
+            },
+            "source": "Ast",
+            "title": "input",
+            "type_name": "LSExecNodeItem",
+            "uuid_": "f11493b9-5a05-420d-a7ee-f22dad0fa10c",
+            "variable_pins_data": {}
+          },
+          {
+            "identifier": "/Operator/Add",
+            "instance_type": "LSOperatorNodeItem_Add",
+            "item_pos": [
+              498,
+              -9
+            ],
+            "node_type": "Operator",
+            "pin_connect_info": [],
+            "pins_serialized": [
+              {
+                "attr_type": "object",
+                "class_name": "LSOperatorDataPin",
+                "flow": "In",
+                "title": "",
+                "uuid_": "c4e48ded-fc41-41a0-81af-8b67a5c7da94"
+              },
+              {
+                "attr_type": "object",
+                "class_name": "LSOperatorDataPin",
+                "flow": "In",
+                "title": "",
+                "uuid_": "8799a048-6e93-4486-b016-671f949cbd96"
+              },
+              {
+                "attr_type": "object",
+                "class_name": "LSOperatorDataPin",
+                "flow": "Out",
+                "title": "value",
+                "uuid_": "8fdb96e4-f738-45d3-bfc1-37df2f2e1b2e"
+              },
+              {
+                "attr_type": "object",
+                "class_name": "AddPinPin",
+                "flow": "Out",
+                "title": "",
+                "uuid_": "26c2a650-4c0a-4821-bab0-c3ac5e13e0c6"
+              },
+              {
+                "attr_type": "object",
+                "class_name": "LSOperatorDataPin",
+                "flow": "In",
+                "title": "",
+                "uuid_": "7c4f7e54-0b5a-467e-b2be-7e9f0011efad"
+              },
+              {
+                "attr_type": "object",
+                "class_name": "LSOperatorDataPin",
+                "flow": "In",
+                "title": "",
+                "uuid_": "bec05c82-043f-4b72-aa61-e8b7c847027f"
+              }
+            ],
+            "source": "Builtin",
+            "title": "Add",
+            "type_name": "LSOperatorNodeItem_Add",
+            "uuid_": "8a2f8f3b-453e-47ab-8b53-6cd36766f486",
+            "variable_pins_data": {
+              "out_pin": "8fdb96e4-f738-45d3-bfc1-37df2f2e1b2e",
+              "add_pin_button_pin": "26c2a650-4c0a-4821-bab0-c3ac5e13e0c6"
+            }
+          }
+        ],
+        "view_scene_rect_data": [
+          272.0,
+          -182.0,
+          598.0,
+          564.0
+        ]
+      }
+    }
+  }
+}

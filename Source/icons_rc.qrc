@@ -1,0 +1,43 @@
+<RCC>
+  <qresource prefix="/">
+   <file>Assets/add.png</file>
+   <file>Assets/add.svg</file>
+   <file>Assets/add2.svg</file>
+   <file>Assets/arrow_down.svg</file>
+   <file>Assets/arrow_right.svg</file>
+   <file>Assets/blue_function.png</file>
+   <file>Assets/branch.png</file>
+   <file>Assets/class_func.svg</file>
+   <file>Assets/controls.svg</file>
+   <file>Assets/event.svg</file>
+   <file>Assets/event_note.svg</file>
+   <file>Assets/false.svg</file>
+   <file>Assets/folder.svg</file>
+   <file>Assets/function.svg</file>
+   <file>Assets/green_function.svg</file>
+   <file>Assets/loop.svg</file>
+   <file>Assets/objects.svg</file>
+   <file>Assets/python.svg</file>
+   <file>Assets/remove.svg</file>
+   <file>Assets/right.svg</file>
+   <file>Assets/search.svg</file>
+   <file>Assets/setting.svg</file>
+   <file>Assets/snake.svg</file>
+   <file>Assets/variable.svg</file>
+   <file>Assets/Unreal/arrow-down-white.svg</file>
+   <file>Assets/Unreal/arrow-down.svg</file>
+   <file>Assets/Unreal/arrow-up-white.svg</file>
+   <file>Assets/Unreal/arrow-up.svg</file>
+   <file>Assets/Unreal/check.svg</file>
+   <file>Assets/Unreal/cross-white.svg</file>
+   <file>Assets/Unreal/cross.svg</file>
+   <file>Assets/Unreal/progress-pattern.svg</file>
+   <file>Assets/Unreal/radio.svg</file>
+   <file>Assets/Unreal/triangle-down-white.svg</file>
+   <file>Assets/Unreal/triangle-down.svg</file>
+   <file>Assets/Unreal/triangle-right-white.svg</file>
+   <file>Assets/Unreal/triangle-right.svg</file>
+   <file>Assets/Unreal/uncheck.svg</file>
+   <file>Assets/Unreal/unradio.svg</file>
+  </qresource>
+</RCC>
